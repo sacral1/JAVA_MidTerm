@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <MenuBar stylesheets="@Stylesheet.css" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="item_Open" mnemonicParsing="false" onAction="#clickOnOpen" text="Open" />
+              <MenuItem fx:id="item_Save" mnemonicParsing="false" onAction="#setItem_Save" text="Save" />
+                  <MenuItem fx:id="item_Exit" mnemonicParsing="false" onAction="#clickOnExit" text="Exit" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleCopy" text="Copy" />
+                  <MenuItem mnemonicParsing="false" onAction="#handlePaste" text="Paste" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleUndo" text="Undo" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleCut" text="Cut" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Fontstyle">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#setCambria" text="Cambria" />
+                  <MenuItem mnemonicParsing="false" onAction="#setArial" text="Arial" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Fontsize">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#fontSmall" text="Small" />
+                  <MenuItem mnemonicParsing="false" onAction="#fontMiddle" text="Middle" />
+                  <MenuItem mnemonicParsing="false" onAction="#fontLarge" text="Large" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onAbout" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="University">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#onUniversity" text="Information" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TextArea fx:id="txtOutput" prefHeight="200.0" prefWidth="200.0" stylesheets="@Stylesheet.css" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
