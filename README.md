@@ -17,3 +17,7 @@ This is how my app look like when i click on "Open":
 Link to the you-tube video
 
 https://youtu.be/e6_2lEHSXho
+
+I remember you saying to upload certificate, if we have, in order to get some extra pts
+
+https://codehs.com/certificate/y8Opxj
