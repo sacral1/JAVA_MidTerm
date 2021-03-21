@@ -1,6 +1,7 @@
 # JAVA_MidTerm!
 
-(https://user-images.githubusercontent.com/73421109/111914137-fd0cc000-8a9a-11eb-9c25-8178d347e6a1.png)
 
 
-[Screenshot_3](https://user-images.githubusercontent.com/73421109/111914152-0564fb00-8a9b-11eb-964c-a8727fb69c17.png)
+
+![Screenshot_3](https://user-images.githubusercontent.com/73421109/111914198-3c3b1100-8a9b-11eb-85a4-1c6110f4b84f.png)
+![Screenshot_2](https://user-images.githubusercontent.com/73421109/111914203-40672e80-8a9b-11eb-85d8-d936d2c2b33a.png)
